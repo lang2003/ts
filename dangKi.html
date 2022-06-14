@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style_mb.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <header class="container">
+        <div class="logo">
+
+            <img src="img/logo.png">
+            <i class="fa-thin fa-align-justify"></i>
+            <form><input type="text" placeholder="Tìm kiếm"></form>
+        </div>
+        <div class="box_menu">
+            <input type="checkbox" id="toggle-menu">
+            <ul class="menu">
+                <li><a href="index.html">TRANG CHỦ</a></li>
+                <li><a href="">GIỚI THIỆU</a></li>
+                <li><a href="trangSanPham.html">TẤT CẢ SẢN PHẨM</a></li>
+                <li><a href="">CÁCH CHỌN SIZE</a></li>
+                <li><a href="dangKi.html">ĐĂNG KÍ</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <h4>ĐĂNG KÝ</h4>
+        <form class="dangKi">
+            <div>
+                <label class="text-primary">Họ và tên: </label><input type="text" name="lastName" value="" placeholder="Nhập họ tên" class="form-control">
+            </div>
+            <div c>
+                <label class="text-primary">Giới tính: </label><br>
+                <fieldset>
+                    <input type="radio" value="Nam" name="gender"><label> &nbsp; Nam</label> &nbsp;
+                    <input type="radio" value="Nữ" name="gender"><label> &nbsp; Nữ</label>
+                </fieldset>
+            </div>
+
+            <div>
+                <label>Số điện thoại: </label>
+                <input type="number" name="cellphone" value="" placeholder="Nhập SĐT" class="form-control bg-warning">
+            </div>
+            <div>
+                <label> Tỉnh</label>
+                <select name="tinh">
+                <option value="0">Chọn tỉnh</option>
+                <option value="1">TPHCM</option>
+                <option value="2">Hà nội</option>
+                <option value="3">Cần Thơ</option>
+            </select>
+            </div>
+            <div>
+                <label> Thông tin bổ sung</label>
+                <textarea name="bosung" class="form-control bg-warning" rows="4" placeholder="Bổ sung thêm thông tin cá nhân"></textarea>
+            </div>
+            <div>
+                <input type="submit" name="submit" class="btn btn-primary m-auto col-5" value="Đăng ký">
+            </div>
+        </form>
+    </section>
+    <footer class="phanCuoi">
+        <div>
+            <div class="cot1">
+                <h3>Hệ thống cửa hàng</h3><br>
+                <div class="cot1_1">CASLLAS Quận 8</div>
+                <div class="cot1_2"> 59/1/3 Đình An Tài P7 Q8</div>
+                <div class="cot1_2">Sđt: 0767722685</div>
+                <div class="cot1_2">Làm việc: 8h tới 6h</div>
+            </div>
+            <div class="cot1">
+                <h3>Hệ thống cửa hàng</h3><br>
+                <div class="cot1_1">CASLLAS Quận 8</div>
+                <div class="cot1_2"> Trường cao đẳng FPT fpoly</div>
+                <div class="cot1_2">Làm việc: 8h tới 6h</div>
+            </div>
+        </div>
+        <div class="cot2">
+            <h3>Hỗ trợ khách hàng</h3><br>
+            <ul>
+                <li><a href="">Hướng dẫn chọn size</a></li>
+                <li><a href="">Ưu đãi quà tặng</a></li>
+                <li><a href="">Chính sách bảo hành</a></li>
+                <li><a href="">Hệ thống cửa hàng</a></li>
+                <li><a href="">Quy định đổi trả</a></li>
+                <li><a href="">Hướng dẫn mua hàng</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

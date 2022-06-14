@@ -1,0 +1,103 @@
+/* mb*/
+
+@media screen and (min-width: 700px) {
+    #toggle-menu {
+        display: none;
+    }
+}
+
+@media(max-width:690px) {
+    .ThongTin {
+        display: none;
+    }
+    .ThongTin_mb {
+        display: block;
+        width: 25%;
+        height: 100%;
+    }
+    .danhMuc {
+        display: block;
+        font-size: 10px;
+    }
+    .container {
+        flex-direction: row;
+    }
+    .logo {
+        width: 60%;
+    }
+    .box_menu {
+        width: 40%;
+    }
+    .box_menu .menu {
+        display: none;
+    }
+    #toggle-menu {
+        display: block;
+    }
+    #toggle-menu:checked+.menu {
+        display: block;
+        color: aliceblue;
+        width: 100%;
+    }
+    .logo img {
+        margin-left: 1em;
+    }
+    .container {
+        width: 100%;
+    }
+    .container input {
+        width: 100%;
+    }
+    .than {
+        width: 100%;
+        flex-direction: column;
+    }
+    .menu a {
+        font-size: 10px;
+    }
+    .hinhBenTrai {
+        display: none;
+    }
+    .danhMuc {
+        margin-top: 10px;
+    }
+    .benTrai {
+        width: 100%;
+        /* flex-direction: ; */
+    }
+    /* ben phai */
+    .benPhai {
+        width: 100%;
+        position: relative;
+    }
+    .sanPham img {
+        width: 70%;
+    }
+    .sanPham a {
+        font-size: 10px;
+    }
+    h2 {
+        font-size: 90%;
+    }
+    .phanSanPham {
+        margin-left: 5px;
+    }
+    /* cuoi */
+    .cot1 {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .cot2 {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .cot2 a {
+        font-size: 10px;
+        margin-left: -90px;
+    }
+}
+
+
+/* ipab*/
+
+@media(max-width:1080px) {}
